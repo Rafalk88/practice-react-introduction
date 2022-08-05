@@ -1,9 +1,24 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+const styleText = {
+
+    fontFamily: 'sans-serif',
+    fontSize: '26px',
+    color: 'blue',
+    backgroundColor: 'grey',
+
+}
+
 // ----------------------- Function ----------------------------
 
-const HeaderFn = () => <header>Moja pierwsza strona w React</header>
+const HeaderFn = () => {
+
+    return <header style= { styleText }>
+        Moja pierwsza strona w React
+    </header>
+
+}
 
 ReactDOM.render(
 
@@ -20,7 +35,9 @@ class HeaderCl extends React.Component {
 
     render() {
 
-        return <header>Moja pierwsza strona w React</header>
+        return <header style= { styleText }>
+            Moja pierwsza strona w React
+        </header>
 
     }
 
