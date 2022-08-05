@@ -16,6 +16,21 @@ ReactDOM.render(
 
 // ----------------------- ES2015 ------------------------------
 
+class HeaderCl extends React.Component {
 
+    render() {
+
+        return <header>Moja pierwsza strona w React</header>
+
+    }
+
+}
+
+ReactDOM.render(
+
+    <HeaderCl/>,
+    document.querySelector('#root')
+
+)
 
 // -------------------- End of ES2015 -------------------------
