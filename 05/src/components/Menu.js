@@ -6,18 +6,17 @@ export const Menu = props => {
 
     const {className, items} = props
 
-    const arr = items.map(
+    const list = items.map(
 
-        item => {
+        ({text, url}) => {
 
-            const {text, url} = item
             return <MenuItem className='nav_menu__li' text={text} url={url}/>
 
         }
 
     )
 
-    return (<ul className={className}>{arr}</ul>)
+    return (<ul className={className}>{list}</ul>)
 
 }
 
