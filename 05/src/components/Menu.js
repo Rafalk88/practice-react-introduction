@@ -17,9 +17,7 @@ export const Menu = props => {
 
     )
 
-    const jsx = <ul className={className}>{arr}</ul>
-
-    return jsx
+    return (<ul className={className}>{arr}</ul>)
 
 }
 
