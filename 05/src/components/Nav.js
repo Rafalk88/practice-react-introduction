@@ -28,7 +28,7 @@ export class Nav extends React.Component {
 Menu.propTypes = {
 
     className: PropTypes.string,
-    items: PropTypes.array.isRequired,
+    items: PropTypes.arrayOf(PropTypes.object).isRequired,
 
 }
 
