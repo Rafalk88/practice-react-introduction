@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import MenuItem from './src/components/menu'
+import MenuItem from './src/components/Menu'
 
 ReactDOM.render(
 
