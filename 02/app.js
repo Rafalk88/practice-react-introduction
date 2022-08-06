@@ -15,7 +15,7 @@ const styleText = {
 const HeaderFn = () => {
 
     return <header style= { styleText }>
-        Moja pierwsza strona w React
+        Moja pierwsza strona w React Fn
     </header>
 
 }
@@ -36,7 +36,7 @@ class HeaderCl extends React.Component {
     render() {
 
         return <header style= { styleText }>
-            Moja pierwsza strona w React
+            Moja pierwsza strona w React Cl
         </header>
 
     }
@@ -45,6 +45,7 @@ class HeaderCl extends React.Component {
 
 ReactDOM.render(
 
+    <HeaderFn />,
     <HeaderCl/>,
     document.querySelector('#root')
 
